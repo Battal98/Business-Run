@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7202388092634021002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7202388092634021001}
+  - component: {fileID: 6551936110004933329}
+  m_Layer: 0
+  m_Name: Skate_Collectable_Parent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7202388092634021001
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7202388092634021002}
+  m_LocalRotation: {x: 0, y: 0.8804525, z: 0, w: 0.4741344}
+  m_LocalPosition: {x: -0.053825956, y: -0.234, z: 0.079874694}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6008377372288084399}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 123.394, z: 0}
+--- !u!114 &6551936110004933329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7202388092634021002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e605cb5f41a263b4082e42b92e4543f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Vtype: 1
+--- !u!1001 &6458558900072447321
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7202388092634021001}
+    m_Modifications:
+    - target: {fileID: 775571841803130102, guid: 2ad8cd9130833db4caea2547fc744be0, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 775571841803130102, guid: 2ad8cd9130833db4caea2547fc744be0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.024
+      objectReference: {fileID: 0}
+    - target: {fileID: 775571841803130102, guid: 2ad8cd9130833db4caea2547fc744be0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 775571841803130102, guid: 2ad8cd9130833db4caea2547fc744be0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.014
+      objectReference: {fileID: 0}
+    - target: {fileID: 775571841803130102, guid: 2ad8cd9130833db4caea2547fc744be0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 775571841803130102, guid: 2ad8cd9130833db4caea2547fc744be0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 775571841803130102, guid: 2ad8cd9130833db4caea2547fc744be0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 775571841803130102, guid: 2ad8cd9130833db4caea2547fc744be0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 775571841803130102, guid: 2ad8cd9130833db4caea2547fc744be0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 775571841803130102, guid: 2ad8cd9130833db4caea2547fc744be0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 775571841803130102, guid: 2ad8cd9130833db4caea2547fc744be0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6692727729065372958, guid: 2ad8cd9130833db4caea2547fc744be0, type: 3}
+      propertyPath: m_Name
+      value: Skate
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2ad8cd9130833db4caea2547fc744be0, type: 3}
+--- !u!4 &6008377372288084399 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 775571841803130102, guid: 2ad8cd9130833db4caea2547fc744be0, type: 3}
+  m_PrefabInstance: {fileID: 6458558900072447321}
+  m_PrefabAsset: {fileID: 0}
